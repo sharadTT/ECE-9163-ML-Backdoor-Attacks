@@ -14,5 +14,5 @@ The graph clearly illustrates the model's accuracies on clean data and its attac
 Clean data accuracies and attack success rates versus the degree of pruning can be visualized in this graph.
 <img width="637" alt="2" src="https://github.com/sharadTT/ECE-9163-ML-Backdoor-Attacks/assets/36073410/ff42f86d-da8e-491f-bdc0-00f3d045c443">
 
-We then combine the pruned model and the BadNet B to create a GoodNet G. The results of the combination of the same data are as follows:
+The combined pruned model and BadNet B created a GoodNet G. The results of the combination of the same data are as follows:
 <img width="617" alt="3" src="https://github.com/sharadTT/ECE-9163-ML-Backdoor-Attacks/assets/36073410/c86c9eed-357f-42f8-9775-5c8388f2fc37">
