@@ -20,7 +20,7 @@ The combined pruned model and BadNet B created a GoodNet G. The results of the c
 ## Installation
 Download the dataset and model from this [link](https://github.com/csaw-hackml/CSAW-HackML-2020/tree/master/lab3)
 
-Save the dataset in the source folder like this
+Save the dataset in the source folder like this<br>
 <img width="101" alt="image" src="https://github.com/sharadTT/ECE-9163-ML-Backdoor-Attacks/assets/36073410/f4a7d4ed-ef9f-49bf-a0e9-53b1acc69865">
 
 Hit Run All on ML_Lab4_st4870.ipynb file
