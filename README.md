@@ -9,9 +9,10 @@ The primary concept involves trimming the neural network and assessing its perfo
 ## Observations
 As per the instructions it is required to save the model when the accuracy falls below specified thresholds of X% (2%, 4%, and 10%). The corresponding saved models for these accuracy thresholds are denoted as model_X=2.h5, model_X=4.h5, and model_X=10.h5 respectively.
 The graph clearly illustrates the model's accuracies on clean data and its attack success rates on malicious data. It visually represents the accuracy of clean test data and the attack success rate on backdoored test data, showcasing how these metrics vary with the fraction of channels pruned (X).
-
+<img width="425" alt="1" src="https://github.com/sharadTT/ECE-9163-ML-Backdoor-Attacks/assets/36073410/2780e7a5-0917-4240-9ed9-204683c4c2aa">
 
 Clean data accuracies and attack success rates versus the degree of pruning can be visualized in this graph.
+<img width="637" alt="2" src="https://github.com/sharadTT/ECE-9163-ML-Backdoor-Attacks/assets/36073410/ff42f86d-da8e-491f-bdc0-00f3d045c443">
 
 We then combine the pruned model and the BadNet B to create a GoodNet G. The results of the combination of the same data are as follows:
-
+<img width="617" alt="3" src="https://github.com/sharadTT/ECE-9163-ML-Backdoor-Attacks/assets/36073410/c86c9eed-357f-42f8-9775-5c8388f2fc37">
